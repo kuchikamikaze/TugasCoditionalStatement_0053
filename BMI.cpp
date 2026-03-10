@@ -27,3 +27,6 @@ string status(float bmi){
 }
 int main() {
     float berat, tinggi, bmi;
+
+    inputdata(berat, tinggi);
+    bmi = hitungBMI(berat, tinggi);
